@@ -1,0 +1,165 @@
+body{
+    background-color: whitesmoke;
+}
+
+.header-main{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(13, 3, 50);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(13, 3, 50);
+    display: flex;
+}
+
+.header-main-nav{
+    width: 200px;
+    height: 100%;
+    background-color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-main-nav ul{
+    list-style: none;
+
+}
+.header-main-nav ul li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    float: left;
+}
+
+.header-main-sm{
+    width: 200px;
+    height: 100%;
+    background-color: rgb(13, 3, 50);
+    padding-right: 50px;
+    display:flex
+    
+}
+
+.header-main-sm-fb{
+    width: 40px;
+    height: 40px;
+    background-image: url(../Pablo\ Singer\ Website/fb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.header-main-sm-ig{
+    width: 40px;
+    height: 40px;
+    background-image: url(../Pablo\ Singer\ Website/ig.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.header-main-sm-yt{
+    width: 40px;
+    height: 40px;
+    background-image: url(../Pablo\ Singer\ Website/yt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.page-name-pablo{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    flex-wrap: wrap;  
+}
+
+.name-pablo{
+    font-family: fantasy;
+    font-size: 100px;
+}
+
+.nickname{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.paragraph{
+    width: 100%;
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.paragraph-1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.stream{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    flex-wrap: wrap; 
+    margin-top: 50px;
+}
+
+.stream-album-release{
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+.albums{
+    width: 100%;
+    height: 400px;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content:center;
+    padding-top: 50px;
+
+}
+
+.album-alon{
+    width: 200px;
+    height: 200px;
+    background-image: url(../Pablo\ Singer\ Website/alon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.album-laon{
+    width: 200px;
+    height: 200px;
+    background-image: url(../Pablo\ Singer\ Website/laon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+
+.footer-main{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(13, 3, 50);
+    text-align: center;
+    padding: 100px 40px;
+    background-image:url(night.jpg);
+    background-position: bottom;
+}
+
+.subscribe-text{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: azure;
+}
